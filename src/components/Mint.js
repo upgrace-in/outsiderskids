@@ -40,7 +40,9 @@ function Mint() {
 
                         </div>
 
-                        <button id='mintNow' className='cr mint-now-btn mintBtn'>Connect Wallet</button>
+                        <button className='cr mint-now-btn mintBtn'>Connect Wallet</button>
+                        <button id='mintNow' className='hide cr mint-now-btn'>Mint Now</button>
+                        <button id='mintNow2' className='hide cr mint-now-btn'>Mint Now</button>
                         <span id='user_address' className='hide'></span>
                         <span id='hash_proof' className='hide'></span>
 

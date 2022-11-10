@@ -176,18 +176,23 @@ function check() {
 
             web3.eth.net.getId().then(async (netId) => {
                 if (netId === chainId) {
-                    $('#mintNow').html("Mint Now")
-                    // $('.connectBTN').html(truncateString(String(user_address), 10));
                     $('#user_address').html(user_address)
-                    $('.mintBtn').off('click')
+                    $('.mintBtn').addClass('hide')
+
 
                     if (publicMint == false) {
+                        $('#mintNow').removeClass('hide')
+                        $('#mintNow').addClass('opac')
+                        setTimeout(() => {
+                            $('#mintNow').removeClass('opac')
+                        }, 3000)
                         await setting_interval();
                     } else {
-                        $('#mintNow').click(async () => {
-                            $('#mintNow').addClass('opac')
+                        $('#mintNow2').removeClass('hide')
+                        $('#mintNow2').click(async () => {
+                            $('#mintNow2').addClass('opac')
                             setTimeout(() => {
-                                $('#mintNow').removeClass('opac')
+                                $('#mintNow2').removeClass('opac')
                             }, 3000)
                             await public_Mint(mint_cost * mint_count, mint_count)
                         });
