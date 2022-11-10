@@ -113,7 +113,6 @@ async function update_mintType() {
             publicMint = false
         }
     });
-    publicMint = false
 }
 
 function after_mint(res) {
