@@ -1,0 +1,297 @@
+@media only screen and (max-width:1400px){
+    .about .container h1{
+        font-size: 50px;
+    }
+    .about .container p{
+        font-size: 20px;
+    }
+    .about-side-img-1 img{
+       width: 80%;
+    }
+    .about-side-img-2 img{
+       width: 300px;
+    }
+    .info-box p{
+        font-size: 20px;
+    }
+    .info-box h1{
+        font-size: 30px;
+    }
+
+    .faq-row .right .faq-img img{
+        width: 400px;
+    }
+    .faq-q-1{
+        position: absolute;
+        top: 11px;
+        left: 140px;
+    }
+    .faq-q-1 img{
+        width: 50px;
+    }
+    .faq-q-2{
+        position: absolute;
+        top: -22px;
+        left: 200px;
+    }
+    .faq-q-2 img{
+        width: 65px;
+    }
+    .faq-q-3{
+        position: absolute;
+        top: -45px;
+        right: 118px;
+        transform: rotate(-10deg);
+    }
+    .faq-q-3 img{
+        width: 50px;
+    }
+    .footer .container p{
+        font-size: 20px;
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width:1240px){
+    .intro{
+        padding: 50px 0 0px 0;
+    
+    }
+    .intro .container .m-logo img{
+        display: block;
+    }
+    .mint{
+        padding: 50px 0 0px 0;
+    }
+    .mint .container .m-logo img{
+        display: block;
+    }
+    .roadmap-cloud-1 img{
+        width: 150px;
+    }
+    .roadmap-cloud-2 img{
+        width: 150px;
+    }
+    .roadmap-cloud-3 img{
+        width: 150px;
+    }
+    .faq-row{
+        display: grid;
+        grid-template-columns: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .faq .container .questions-answers .question-answer .question p {
+        font-size: 20px;
+        
+      }
+      .faq .container .questions-answers .question-answer .answer p {
+        font-size: 16px;
+      }
+    .faq-row .right .faq-img img{
+        width: 600px;
+        margin-top: 100px;
+    }
+    .faq-q-1{
+        position: absolute;
+        top: 132px;
+        left: 205px;
+    }
+
+    .faq-q-2{
+        position: absolute;
+        top: 109px;
+        left: 285px;
+    }
+
+    .faq-q-3{
+        position: absolute;
+        top: 86px;
+        left: 350px;
+    }
+}
+@media only screen and (max-width:900px){
+    .roadmap .container{
+        width: 90%;
+    }
+    .right-con p{
+        font-size: 18px;
+     }
+     .left-con p{
+        font-size: 18px;
+    }
+    .roadmap-cloud-1 img{
+        width: 100px;
+    }
+    .roadmap-cloud-2 img{
+        width: 100px;
+    }
+    .roadmap-cloud-3 img{
+        width: 100px;
+    }
+    .row-3{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+      }
+
+    .footer .container p{
+        font-size: 18px;
+        width: 100%;
+    }
+
+ 
+
+}
+
+@media only screen and (max-width:750px){
+    .intro .container p{
+        font-size: 16px;
+    }
+    .about .container p{
+        font-size: 16px;
+    }
+
+    .info-box{
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .info-box p{
+        font-size: 12px;
+    }
+    .info-box h1{
+        font-size: 16px;
+    }
+    .about-side-img-1 img{
+        width: 150px;
+    }
+    .about-side-img-2 img{
+        width: 150px;
+    }
+    .about-bottom-shadow{
+        height: 40px;
+    }
+    .blank-bar{
+        display: none;
+    }
+    .bar{
+        display: block;
+        margin: auto;
+    }
+    .row-2{
+        display: grid;
+        grid-template-columns:100%;
+        margin: auto;
+    }
+    .row-2 .right{
+        border-left: 0px dotted var(--primary-color);
+        padding-left: 0px;
+        position: relative;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .right-con {
+        width: 100%;
+    }
+    .dot-right{
+    display: none;
+    }
+  
+    .right-con h1{
+        text-align: center !important;
+        margin-bottom: 10px !important;
+    }
+    .right-con h1 img{
+        width: 30% !important;
+        margin-top: 10px;
+    }
+    .right-con p{
+        text-align: center;
+        font-size: 24px;
+        color: var(--secondary-color);
+        font-weight: 400;
+        line-height: 1.5;
+     }
+    .row-2 .left{
+        border-left: 0px dotted var(--primary-color);
+        padding-left: 0px;
+        position: relative;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .left .left-con{
+        width: 100%;
+        padding-right: 0px;
+        padding-bottom: 0px;
+        
+    }
+    .dot-left{
+    display: none;
+    }
+  
+    .left-con h1{
+        text-align: center !important;
+        margin-bottom: 10px !important;
+    }
+    .left-con h1 img{
+        width: 30% !important;
+        margin-top: 10px;
+    }
+    .left-con p{
+        text-align: center;
+        font-size: 24px;
+        color: var(--secondary-color);
+        font-weight: 400;
+        line-height: 1.5;
+     }
+
+     .faq-row .right .faq-img img{
+        width: 400px;
+    }
+    .footer .container p{
+        font-size: 14px;
+        width: 100%;
+    }
+
+
+
+
+}
+@media only screen and (max-width:600px){
+    .socials img{
+        width: 30px;
+       margin: 0 5px;
+    }
+    .team-side-img-1{
+        top: -45px;
+    }
+    .team-side-img-1 img{
+        width: 200px;
+    }
+    .faq-q-1{
+        display: none;
+    }
+
+    .faq-q-2{
+        display: none;
+    }
+
+    .faq-q-3{
+        display: none;
+    }
+    .footer{
+        position: relative;
+        padding: 100px 0 200px 0;
+    }
+}
+
+@media only screen and (max-width:450px){
+    .faq-row .right .faq-img img{
+        width: 300px;
+    }
+    .footer{
+        position: relative;
+        padding: 0px 0 100px 0;
+    }
+}

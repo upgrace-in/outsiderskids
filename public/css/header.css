@@ -1,0 +1,216 @@
+header{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header-mobile {
+    display: none;
+}
+nav{
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1360px;
+    gap:52px;
+    margin: auto;
+    border-top: 4px solid #91491F;
+    border-left: 5px solid #91491F;
+    border-right: 5px solid #91491F;
+    border-bottom: 10px solid #91491F;
+    border-radius:100px;
+    padding: 10px;
+    margin-top: 50px;
+    /* -webkit-text-stroke: 0.2px #91491F; */
+    /* text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF; */
+    position: relative;
+    background: #FFFFFF;
+}
+.logo{
+    position: absolute;
+    left: -75px;
+    top: -35px;
+}
+header img{
+    width: 150px;
+    border-radius: 100px;
+    border: 4px solid #91491F;
+}
+header nav .nav-con{
+    
+    display: flex;
+    align-content: center;
+    gap: 50px;
+    padding-left: 100px;
+}
+header nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Cocola';
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    color: #FFFFFF;
+    transition: 0.3s;
+    -webkit-text-stroke: 2px #91491F;
+}
+
+header nav a:hover {
+    color: #91491F;
+}
+
+.btn-header {
+    padding: 16px;
+    background: #91491F;
+    font-family: 'Cocola';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #FFFFFF;
+    transition: 0.3s;
+    -webkit-text-stroke: 0px #91491F;
+    border-radius: 100px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+.m-btn-header {
+    padding: 16px;
+    background: #EDA970;
+    font-family: 'Cocola';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 120%;
+    color: #FFFFFF;
+    transition: 0.3s;
+    -webkit-text-stroke: 0px #91491F;
+    border-radius: 100px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+}
+
+.btn-header:hover{
+    transform: scale(1.1);
+}
+
+@media only screen and (max-width:1400px){
+
+    header{
+        padding: 10px;
+    }
+    header nav .nav-con{
+    
+        gap: 30px;
+        padding-left: 80px;
+    }
+    header nav a{
+        font-size: 20px;
+    }
+
+}
+
+@media only screen and (max-width:1240px){
+    header {
+        display: none;
+        z-index: 99999;
+        position: relative;
+    }
+    .header-mobile {
+        display: block;
+        margin-top: -3px;
+        padding: 0px;
+        z-index: 99999;
+
+    }
+
+    .header-mobile button {
+        z-index: 99999;
+    background: transparent;    }
+
+    .header-mobile a {
+        z-index: 99999;    }
+
+  
+        .header-links-mobile .social-links {
+            margin-top: 100px;
+        }
+
+    nav {
+        position: absolute;
+        display: grid;
+        top: -100%;
+        z-index: 999999;
+
+    }
+
+    nav a {
+        font-size: 1.45em;
+    }
+
+
+    .header-links-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+       
+    }
+
+    .hidden {
+        top: 0px;
+    }
+    nav{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1360px;
+    gap:52px;
+    margin: auto;
+    border-top: 0px solid #91491F;
+    border-left: 0px solid #91491F;
+    border-right: 0px solid #91491F;
+    border-bottom: 0px solid #91491F;
+    border-radius:0px;
+    padding: 10px;
+    margin-top: 0px;
+    -webkit-text-stroke: 2px #91491F;
+    position: relative;
+    background: #FFFFFF;
+}
+    #mobile-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        position: fixed;
+        align-items: center;
+        right: 0px;
+        padding: 124px 24px 72px 24px;
+        background: #91491F;
+
+        width: 100%;
+        z-index: 99 !important;
+        transition: top 0.4s ease-out;
+        height: 100vh;
+    }
+
+
+
+    #burger-menu {
+        top: 24px;
+        right: 24px;
+        position: fixed;
+
+    }
+    #burger-menu img{
+        width: 50px;
+    }
+}
