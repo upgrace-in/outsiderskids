@@ -19,14 +19,8 @@ function App() {
   // Merkle tree integration
   let proof
   const whitelistAddresses = [
-    "0xDEF9CBc7A7b9fa1228E3FeF7BE3DA4755a602035",
-    "0x53084f29F1B1d90b0fA48Ee3BE80FEc5Cfc372C0",
-    "0xC293f7827F05c3A79448F2DB3642dA82fe21503e",
-    "0x1e09CC990F91996b078eaFAC4E0Eb9b690C34A59",
-    "0x3a142Ed85afa8d013dbfF3C52582a7Fa63cbca31",
-    "0x5b362A0608B086442D8Bd84470DAafeB605B8E4b",
-    "0xBCc428c02Db0b0Fb3030F3dfb66C833004aeFd71",
-    "0x2caF424F1BcbEf1f1D7dF082c6b5677f0283f9d7",
+    "0xe4EC89bc7E052d0394eeA27EEF44DAe6a3F704e2",
+    "0x694EC93388b932398615331B8cE1CAaB7eE9Cfe3",
     "0x04c63D8c2fc9DD602aeE46F12083af1DdE69C713"
   ]
 
@@ -35,7 +29,7 @@ function App() {
 
   // Get the RootHash
   const rootHash = merkleTree.getRoot().toString('hex');
-  // console.log(rootHash)
+  console.log(rootHash)
 
   useEffect(() => {
     let checkIntern2 = setInterval(async () => {
